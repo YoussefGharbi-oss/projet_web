@@ -657,7 +657,7 @@ padding: 25px;
     border: none;
     background-color: #EF443B;
 }
-footer{
+.Top-footer{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -668,4 +668,10 @@ footer{
 }
 ul{
     list-style-type: none;
+}
+.names{
+    color: gray; 
+    padding: 15px;
+    font-weight: 400;
+    text-align: center;
 }
