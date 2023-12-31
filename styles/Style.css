@@ -66,7 +66,7 @@ body {
   width: 100%;
 
   background: linear-gradient(-90deg, rgba(22, 14, 51, 0) 25%, #160e33 100%),
-    url("./assets/bg.png"),
+    url("/assets/bg.png"),
     linear-gradient(180deg, rgba(22, 14, 51, 0) 25%, #160e33 100%);
 
   background-size: cover;
@@ -449,7 +449,7 @@ body {
     padding: 155px;
  
 
-background: linear-gradient(180deg, rgba(239, 68, 59, 0.2) 25%, rgba(239, 68, 59, 0.2) 0%), url("./assets/bg-pc.png");
+background: linear-gradient(180deg, rgba(239, 68, 59, 0.2) 25%, rgba(239, 68, 59, 0.2) 0%), url("/assets/bg-pc.png");
 
 
 }

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Market</title>
+    <link rel="stylesheet" href="/styles/Style.css" />
+    <link rel="stylesheet" href="/styles/Market.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <h1>CryptoQuill</h1>
+      </div>
+
+      <div class="navlinks">
+        <a href="./index.html">Home</a>
+        <a href="./Market.html">Market</a>
+        <a href="./News.html">News</a>
+
+        <a href="./About.html">About</a>
+      </div>
+    </nav>
+    <main>
+      <section data-aos="fade-up" data-aos-duration="1000" class="trending">
+        <h1>Today's Cryptocurrency Prices by Market Cap</h1>
+        <p>
+          The global crypto market cap is $1.66T
+          <img class="arrow" src="/assets/up-arrow.png" alt="up aqrrow" /> a
+          1.29% increase over the last day
+        </p>
+        <div class="trend-container">
+          <div class="slide-wrapper">
+            <div class="card-header">
+              <h2><img src="/assets/fire.png" alt="fire" />Trending</h2>
+              <a href="#">Read More >></a>
+            </div>
+
+            <ul class="slide">
+              <li>
+                1- <img src="/assets/crypto.png" alt="crypto" /> Bonk
+                <span>Bonk</span>
+              </li>
+              <li>
+                2-
+                <img src="/assets/006-chainlink 1.svg" alt="crypto" /> Internet
+                Computer<span>ICC</span>
+              </li>
+              <li>
+                3- <img src="/assets/011-siacoins.svg" alt="crypto" /> Sei <span>SEI</span>
+              </li>
+            </ul>
+            <ul class="slide">
+              <li>
+                1- <img src="/assets/004-Litecoin.svg" alt="crypto" />  Etheral <span>ETH</span>
+              </li>
+              <li>2- <img src="/assets/crypto.png" alt="crypto" /> Kitty IA <span>KIA</span></li>
+              <li>
+                3- <img src="/assets/crypto.png" alt="crypto" /> pepwifehat <span>PWC</span>
+              </li>
+            </ul>
+
+            <div class="dots">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+          </div>
+            <div class="slide-wrapper">
+              <div class="card-header">
+                <h2><img src="/assets/star.png" alt="fire" />Top Buyers</h2>
+              </div>
+              <ul class="account-List">
+                <li class="account">
+                 <div class="Personal-Details">
+                  <img src="/assets/Ellipse.svg" alt="top Buyser" />
+                  <span class="name">Youssef gharbi</span>
+                  <img src="/assets/verified.png" alt=" verifed tag">
+                  <span class="username">@defNotYoussef</span> 
+                 </div>
+                 <button class="follow-btn"> +   Follow</button>
+
+                </li>
+                <li class="account">
+                  <div class="Personal-Details">
+                   <img src="/assets/Ellipse2.svg" alt="top Buyser" />
+                   <span class="name">Ahmed Jouini</span>
+                   <img src="/assets/verified.png" alt=" verifed tag">
+                   <span class="username">@ahmed</span> 
+                  </div>
+                  <button class="follow-btn"> +   Follow</button>
+ 
+                 </li>
+                 <li class="account">
+                  <div class="Personal-Details">
+                   <img src="/assets/E3.svg" alt="top Buyser" />
+                   <span class="name">John Doe</span>
+                   <img src="/assets/verified.png" alt=" verifed tag">
+                   <span class="username">@Johny</span> 
+                  </div>
+                  <button class="follow-btn"> +   Follow</button>
+ 
+                 </li>
+              </ul>
+            </div>
+          
+        
+        </div>
+        </div>
+      </section>
+
+
+
+      <section class="Rankings">
+        <h1>Global Cryptocurrency Rankings</h1>
+        <p>
+          The global crypto market cap is $1.66T
+          <img class="arrow" src="/assets/up-arrow.png" alt="up aqrrow" /> a
+          1.29% increase over the last day
+        </p>
+        <div data-aos="zoom-in" data-aos-duration="1000" class="crypto-table">
+          <table >
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Change</th>
+                <th>Market Cap</th>
+                <th>Volume</th>
+                <th>Circulating Supply</th>
+                <th>Last 7 Days</th>
+                <th>Chart</th>
+                <th>Trade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>
+                  <img src="/assets/Bitcoin-1.png" alt="bitcoin" />
+                  <span>Bitcoin</span>
+                  <span>BTC</span>
+                </td>
+                <td>$ 37, 000</td>
+                <td>
+                  <span class="green">+ 2.5%</span>
+                </td>
+                <td>$ 37, 000</td>
+                <td>$ 37, 000</td>
+                <td>$ 37, 000</td>
+                <td>
+                  <img src="/assets/download.png" alt="arrow" />
+                  <span>2.5%</span>
+                </td>
+                <td>
+                  <img src="/assets/1.svg" alt="chart" />
+                </td>
+                <td>
+                  <button class="buy-btn">Buy</button>
+                </td>
+              </tr>
+              
+              <tr>
+                <td>2</td>
+                <td>
+                  <img src="/assets/006-chainlink 1.svg" alt="bitcoin" />
+                  <span>ChainLink</span>
+                  <span>CL</span>
+                </td>
+                <td>$ 20, 000</td>
+                <td>
+                  <span class="green">+ 2.5%</span>
+                </td>
+                <td>$ 10, 000</td>
+                <td>$ 15, 000</td>
+                <td>$ 4, 000</td>
+                <td>
+                  <img src="/assets/up-arrow.png" alt="arrow" />
+                  <span>2.5%</span>
+                </td>
+                <td>
+                  <img src="/assets/1.svg" alt="chart" />
+                </td>
+                <td>
+                  <button class="buy-btn">Buy</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <img src="/assets/004-Litecoin.svg" alt="bitcoin" />
+                  <span>Litecoin</span>
+                  <span>LTC</span>
+                </td>
+                <td>$ 37, 000</td>
+                <td>
+                  <span class="green">+ 2.5%</span>
+                </td>
+                <td>$ 40, 000</td>
+                <td>$ 40, 000</td>
+                <td>$ 40, 000</td>
+                <td>
+                  <img src="/assets/download.png" alt="arrow" />
+                  <span>2.5%</span>
+                </td>
+                <td>
+                  <img src="/assets/1.svg" alt="chart" />
+                </td>
+                <td>
+                  <button class="buy-btn">Buy</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <img src="/assets/011-siacoins.svg" alt="bitcoin" />
+                  <span>SiaCoin</span>
+                  <span>SIC</span>
+                </td>
+                <td>$ 158, 000</td>
+                <td>
+                  <span class="green">+ 2.5%</span>
+                </td>
+                <td>$ 158, 000</td>
+                <td>$ 15, 000</td>
+                <td>$ 15, 000</td>
+                <td>
+                  <img src="/assets/up-arrow.png" alt="arrow" />
+                  <span>2.5%</span>
+                </td>
+                <td>
+                  <img src="/assets/1.svg" alt="chart" />
+                </td>
+                <td>
+                  <button class="buy-btn">Buy</button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>
+                  <img src="/assets/Monero-1.png" alt="bitcoin" />
+                  <span>Monero</span>
+                  <span>M</span>
+                </td>
+                <td>$ 3, 000</td>
+                <td>
+                  <span class="green">+ 2.5%</span>
+                </td>
+                <td>$ 15, 000</td>
+                <td>$ 15, 000</td>
+                <td>$ 150, 000</td>
+                <td>
+                  <img src="/assets/up-arrow.png" alt="arrow" />
+                  <span>2.5%</span>
+                </td>
+                <td>
+                  <img src="/assets/1.svg" alt="chart" />
+                </td>
+                <td>
+                  <button class="buy-btn">Buy</button>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+  
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="Top-footer">
+          <div class="Footer-card">
+              <h2>cryptoQuill</h2>
+              <p>
+                Copy Massa blandit semper varius faucibus. Suspendisse viverra
+                venenatis placerat nam ut. Pellentesque sit id tempor turpis.
+              </p>
+            </div>
+            <div class="Links-card">
+              <h2>Links</h2>
+              <ul>
+                <li>Home</li>
+                <li>Market</li>
+                <li>News</li>
+                <li>About</li>
+              </ul>
+            </div>
+            <div class="Leagal-card">
+              <h2>Leagal</h2>
+              <ul>
+                  <li>Terms of use</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>Cookie Policy</li>
+              </ul>
+            </div>
+            <div class="Newsletter">
+              <h2>Newsletter</h2>
+              <p>
+                Subscribe to our newsletter to get the latest news and offers
+              </p>
+              <form >
+                <input type="email" placeholder="Enter Your Email" />
+                <button>Subscribe</button>
+              </form>
+            </div>
+      </div>
+      <hr>
+      <p class="names">Youssef gharbi Ahmed Jouini 2LBC4</p>
+   
+   
+  </footer>
+    <script src="/scripts/Market.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
