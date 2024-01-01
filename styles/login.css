@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.bg_img {
+  background: url("/assets/login.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.bg_img:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+.content {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+.content1 {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 450px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+header {
+  color: white;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: "Montserrat", sans-serif;
+}
+.field {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94);
+}
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+}
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.space {
+  margin-top: 16px;
+}
+.show {
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.show1 {
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.show2 {
+  position: absolute;
+  right: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  display: none;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.pass_key:valid ~ .show {
+  display: block;
+}
+.pass {
+  text-align: left;
+  margin: 10px 0;
+  height: 0px;
+  transition: 0.5s;
+}
+.pass p {
+  transition: 0.5s;
+  opacity: 0;
+  color: #ffcecd;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.pass:hover a {
+  text-decoration: underline;
+}
+.field input[type="submit"] {
+  background: #ef443b;
+  border: 1px solid #eb3930;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.field input[type="submit"]:hover {
+  background: #ec3026;
+}
+.login {
+  color: white;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif;
+}
+.date {
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.facebook {
+  height: 60px;
+  width: 60px;
+}
+.google {
+  height: 60px;
+  width: 60px;
+}
+
+.links i {
+  font-size: 17px;
+}
+i span {
+  margin-left: 8px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.signup {
+  font-size: 15px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.signup a {
+  color: #ef443b;
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.date1 {
+  margin-bottom: 50px;
+}
+.space1 {
+  height: 30px;
+}
+.coin {
+  width: 100px;
+  top: 200px;
+  left: 200px;
+  z-index: 846;
+}
