@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <main>
+        <div class="bg_img">
+        <div id="sign" class="content">
+            <header>Sign Up Form</header>
+            <form action="#">
+              <div class="field">
+                <span class="user"></span>
+                <input
+                  id="user1"
+                  type="text"
+                  required
+                  placeholder="Email or Phone"
+                />
+              </div>
+              <div class="field space">
+                <span class="lock"></span>
+                <input
+                  id="pass1"
+                  type="password"
+                  class="pass_key1"
+                  required
+                  placeholder="Password"
+                />
+                <span id="show1" class="show1">SHOW</span>
+              </div>
+              <div class="field space">
+                <span class="lock"></span>
+                <input
+                  id="pass2"
+                  type="password"
+                  class="pass_key2"
+                  required
+                  placeholder="Confirm Password"
+                />
+                <span id="show2" class="show2">SHOW</span>
+              </div>
+              <div class="field space">
+                <span class="lock"></span>
+                <input id="date" type="date" class="date1" required />
+              </div>
+              <div id="msg_field1" class="pass">
+                <p id="msg1">*Username and password not found</p>
+              </div>
+              <div class="field">
+                <input
+                  onclick="check_signup()"
+                  id="signup_button"
+                  type="submit"
+                  value="SIGN UP"
+                  class="confirm_signup"
+                />
+              </div>
+            </form>
+            <div class="login">Or continue with</div>
+            <div class="links">
+              <div class="facebook">
+                <img src="assets/fb.png" alt="" width="100%" />
+              </div>
+              <div class="google">
+                <img src="assets/google.png" alt=""  />
+              </div>
+            </div>
+            <div class="signup">
+              Do you have an account?
+              <a id="login1" href="#">Login Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./scripts/login.js"></script>
+</body>
+</html>
