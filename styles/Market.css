@@ -228,15 +228,21 @@
     
 }
 .crypto-table {
+    display: flex;
+   justify-content: center;
+   align-items: centerx;
+
+}
+.crypto-table > table {
     color: #ef443b;
     background-color: #22144d;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
-    gap: 5rem;
+    
+   
+
     border-radius: 10px;
-    margin-left: 10rem;
+    width: min-content;
+
+    
 
     
 } 
@@ -299,6 +305,7 @@ td > button {
 }
 .Rankings{
     display: flex;
+ 
     flex-direction: column;
 
   
@@ -328,4 +335,99 @@ td > button {
     margin-top: 0.6rem;
     margin-left: 4rem;
     margin-bottom: 1rem;
+}
+.analysis {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+
+ 
+}
+.analysis > h1 {
+    color: white;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    margin-top: 6rem;
+    margin-left: 4rem;
+    
+    
+  
+}
+.analysis > h2 {
+    color: #ef443b;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 400;
+    
+    margin-top: 0.6rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+}
+.analysis-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    border-radius: 10px;
+}
+.analysis-card img {
+    width: 6rem;
+    height: 6rem;
+    vertical-align: middle;
+    margin-right: 0.2rem ; 
+    margin-left: 0.3rem;
+}
+
+.card-details h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+
+    
+}
+.card-details p {
+    color: gray;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+    width: 60%;
+}
+.card-details  a {
+    color: #ef443b;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.6rem;
+    margin-bottom: 0.6rem;
+    text-decoration: none;
+    transition:  0.6s ease;
+    cursor: pointer;
+
+}
+.analysis-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem   ;
+    margin-top: 3rem; 
+    margin-left: 5rem;
+
 }
