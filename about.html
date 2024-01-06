@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CryptoQuill</title>
+    <link rel="stylesheet" href="./styles/Style.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <div class="logo">
+          <h1>CryptoQuill</h1>
+        </div>
+        <div class="navlinks">
+          <a href="./index.html">Home</a>
+          <a href="./Market.html">Market</a>
+          <a href="./news.html">News</a>
+          <a href="./about.html">About</a>
+        </div>
+        <a href="./login.html">
+          <button class="btn">Login</button>
+        </a>      </nav>
+
+      <div class="section">
+        <h1 data-aos="fade-down">OUR VISION</h1>
+        <p>Cryptocurrency in Every Wallet</p>
+        
+        <img data-aos="fade-up" src="./assets/pyramid.webp" alt="image" />
+      </div>
+      <div class="section1">
+        <h1 data-aos="fade-up">WHY IT MATTERS <br /></h1>
+        <p data-aos="fade-up">
+          Powered by cryptocurrency
+          the future of the internet
+          Web3 will be more fair an
+          equitable, owned by th
+          builders, creators and users
+          You.
+        </p>
+        <p data-aos="fade-up">
+          We believe it is your basic right to control your money,<br />
+          data and identity.
+        </p>
+      </div>
+
+      <div class="section2">
+        <h1 data-aos="fade-up">CHECK OUT OUR PRICES</h1>
+
+        <section data-aos="fade-up" class="products">
+          <div class="product">
+            <div class="product_name">
+              <p>Bitcoin</p>
+              <img src="./assets/bitcoin1.png" alt="bitcoin" />
+            </div>
+            <div class="price">
+              <input
+                type="text"
+                id="amount_bitcoin_dollar"
+                name="amount_bitcoin_dollar"
+                minlength="2"
+                maxlength="8"
+                size="10"
+              />
+              <div class="currency">
+                <p>USD</p>
+                <img src="./assets/dollar.png" alt="dollar" />
+              </div>
+            </div>
+            <div class="price">
+              <div class="converted" id="converted1"></div>
+              <div class="currency">
+                <p>BTC</p>
+                <img src="./assets/bitcoin1.png" alt="bitcoin" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product_name">
+              <p>Ethereum</p>
+              <img src="./assets/ethereum.png" alt="ethereum" />
+            </div>
+            <div class="price">
+              <input
+                type="text"
+                id="amount_ethereum_dollar"
+                name="amount_ethereum_dollar"
+                minlength="2"
+                maxlength="8"
+                size="10"
+              />
+              <div class="currency">
+                <p>USD</p>
+                <img src="./assets/dollar.png" alt="dollar" />
+              </div>
+            </div>
+            <div class="price">
+              <div class="converted" id="converted2"></div>
+              <div class="currency">
+                <p>ETH</p>
+                <img src="./assets/ethereum.png" alt="ethereum" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product_name">
+              <p>Solana</p>
+              <img src="./assets/solana.png" alt="solana" />
+            </div>
+            <div class="price">
+              <input
+                type="text"
+                id="amount_solana_dollar"
+                name="amount_solana_dollar"
+                minlength="2"
+                maxlength="8"
+                size="10"
+              />
+              <div class="currency">
+                <p>USD</p>
+                <img src="./assets/dollar.png" alt="dollar" />
+              </div>
+            </div>
+            <div class="price">
+              <div class="converted" id="converted4"></div>
+              <div class="currency">
+                <p>SOL</p>
+                <img src="./assets/solana.png" alt="solana" />
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="product_name">
+              <p>Tether</p>
+              <img src="./assets/tether.png" alt="ethereum" />
+            </div>
+            <div class="price">
+              <input
+                type="text"
+                id="amount_tether_dollar"
+                name="amount_tether_dollar"
+                minlength="2"
+                maxlength="8"
+                size="10"
+              />
+              <div class="currency">
+                <p>USD</p>
+                <img src="./assets/dollar.png" alt="dollar" />
+              </div>
+            </div>
+            <div class="price">
+              <div class="converted" id="converted3"></div>
+              <div class="currency">
+                <p>ETH</p>
+                <img src="./assets/tether.png" alt="tether" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="Top-footer">
+          <div class="Footer-card">
+            <h2>cryptoQuill</h2>
+            <p>
+              Copy Massa blandit semper varius faucibus. Suspendisse viverra
+              venenatis placerat nam ut. Pellentesque sit id tempor turpis.
+            </p>
+          </div>
+          <div class="Links-card">
+            <h2>Links</h2>
+            <ul>
+              <li>Home</li>
+              <li>Market</li>
+              <li>News</li>
+              <li>About</li>
+            </ul>
+          </div>
+          <div class="Leagal-card">
+            <h2>Leagal</h2>
+            <ul>
+              <li>Terms of use</li>
+              <li>Terms & Conditions</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+            </ul>
+          </div>
+          <div class="Newsletter">
+            <h2>Newsletter</h2>
+            <p>Subscribe to our newsletter to get the latest news and offers</p>
+            <form>
+              <input type="email" placeholder="Enter Your Email" />
+              <button>Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <p class="names">Youssef gharbi Ahmed Jouini 2LBC4</p>
+      </footer>
+    </main>
+
+    <script src="./scripts/about.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

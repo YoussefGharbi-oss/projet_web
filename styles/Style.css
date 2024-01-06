@@ -62,7 +62,7 @@ body {
   text-align: center;
 }
 .banner {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
 
   background: linear-gradient(-90deg, rgba(22, 14, 51, 0) 25%, #160e33 100%),
@@ -86,7 +86,7 @@ body {
 .main-title {
   color: white;
   text-align: center;
-  font-size: 3rem;
+  font-size: 5rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -96,7 +96,7 @@ body {
 .secondary-title {
   color: rgb(213, 212, 212);
   text-align: center;
-  font-size: 0.7rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -105,7 +105,7 @@ body {
 #timer {
   color: #ef443b;
 
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -136,7 +136,7 @@ body {
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 800;
     text-align: center;
 }
@@ -147,7 +147,7 @@ body {
     padding: 10px;
     border-radius: 50px;
     cursor: pointer;
-    font-size: 0.7rem;
+    font-size: 1rem;
     font-weight: 800;
   
     text-align: center;
@@ -450,7 +450,7 @@ body {
  
 
 background: linear-gradient(180deg, rgba(239, 68, 59, 0.2) 25%, rgba(239, 68, 59, 0.2) 0%), url("/assets/bg-pc.png");
-
+background-size: cover;
 
 }
 .advanced h1 {

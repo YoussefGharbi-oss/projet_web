@@ -44,8 +44,7 @@ function check_signup() {
   }
   if (
     document.getElementById("pass1").value ===
-      document.getElementById("pass2").value &&
-    document.getElementById("pass1").value.length > 7
+      document.getElementById("pass2").value 
   ) {
     localStorage.setItem("password", document.getElementById("pass1").value);
   } else {
